@@ -1,22 +1,331 @@
-{
-  "students": [
-    {
-      "id": "ef48",
-      "name": "",
-      "number": "",
-      "course": "full stack"
-    },
-    {
-      "id": "2741",
-      "name": "java",
-      "number": "7777996541",
-      "course": "backend"
-    },
-    {
-      "id": "3d71",
-      "name": "mongodb",
-      "number": "65",
-      "course": "backend"
-    }
-  ]
-}
+  {
+    
+    "offers": [
+      {
+        "id": 1,
+        "img": "/imags/offers_1_1.jpg",
+        "title": "De Fabulous Reviver Hair Repair Shampoo 250ml + Conditioner 250ml",
+        "price": "2,592",
+        "s_img_1":"/imags/offers_1_1.jpg",
+        "s_img_2":"/imags/offers_1_2.jpg",
+        "s_img_3":"/imags/offers_1_3.jpg",
+        "s_img_4":"/imags/offers_1_4.jpg",
+        "desc": "Enriched with vitamin E rejuvenating beads, De Fabulous Reviver Hair Repair Shampoo reconstructs & strengthens extremely damaged & fragile hair. Formulated with olive fruit extract, meadowfoam seed extract, sweet almond extract & wheat amino-acid proteins, deep intensive moisture is restored without weighing down hair. A specially formulated protein complex works with the hair to restore natural health & strength. De Fabulous Reviver Hair Repair Conditioner rescues & revitalizes chemically enhanced, porous hair. Detangles & leaves hair manageable. Reviving protein complex brings weak hair back to life.",
+        "type": "offers"
+      },
+      {
+        "id": 2,
+        "img": "/imags/offer_2_2.jpg",
+        "title": "Beauty Garage Frizz Dismiss Shampoo + Conditioner",
+        "price": "2,280",
+        "s_img_1":"/imags/offer_2_2.jpg",
+        "s_img_2":"/imags/offer_2_3.jpg",
+        "s_img_3":"/imags/offer_2_4.jpg",
+        "s_img_4":"/imags/offer_2_5.jpg",
+        "desc": "conditioner of 300 ml each. It fights frizz for increased smoothness and shine. It is sodium chloride-free and sulphate-free. It provides enhanced smoothness and shine. It moisturizes and detangles the hair..",
+        "type": "offers"
+      },
+      {
+        "id": 3,
+        "img": "/imags/offer_3_1.jpg",
+        "title": "Lakme Complexion Care Color Transform, Face Cream, Bronze",
+        "price": "260",
+        "s_img_1":"/imags/offer_3_1.jpg",
+        "s_img_2":"/imags/offer_3_2.jpg",
+        "s_img_4":"/imags/offer_3_3.jpg",
+        "s_img_3":"/imags/offer_3_4.jpg",
+        "desc": "Tired of using a bunch of different products every day to get that perfect look? What if you could have your fairness cream, moisturizer, sunscreen and concealer all in one seamless CC cream? It’s time to toss the clutter aside and make way for first colour changing CC cream from the house of Lakme. Enriched with colour changing beads, Lakme 9 TO 5 CC Color Transform Cream is an advanced fairness cream that reveals a flawless and fair complexion with a makeup like finish. It starts out as a white cream that changes colour as you blend it onto your skin to give you a touch of make-up",
+         "type": "offers"
+      },
+      {
+        "id": 4,
+        "img": "/imags/offer_4_1.jpg",
+        "title": "Lakme Absolute Spotlight Eye Shadow Palette, Smokin Glam, 12g",
+        "price": "796",
+        "s_img_1":"/imags/offer_4_1.jpg",
+        "s_img_2":"/imags/offer_4_2.jpg",
+        "s_img_3":"/imags/offer_4_3.jpg",
+        "s_img_4":"/imags/offer_4_4.jpg",
+        "desc": "The new lakmé absolute spotlight eye shadow palettes. Unveil a new and confident you, as you step into the spotlight with your eyeshadow that redefines you. With the perfect combination of 48 striking shimmers and intense mattes, it’s time to switch from party to spotlight ready! Choose your favourite from 4 versatile palettes: smokin' hot, stilettos, sundowner and berry martini. These shades come in ultra-light velvety textures that glide onto your eyelids like a dream.",
+        "type": "offers"
+      },
+      {
+        "id": 5,
+        "img": "/imags/offer_5_1.jpg",
+        "title": "Dermalogica Skin Smoothing Cream Moisturizer",
+        "price": "1,170",
+        "s_img_1":"/imags/offer_5_1.jpg",
+        "s_img_2":"/imags/offer_5_2.jpg",
+        "desc": "continuous hydration and protect against environmental stress. This best-selling moisturizer has state-of-the-art complex that works on a molecular level to help reduce trans-epidermal water loss (tewl). This advanced technology spreads hydration throughout the skin and shield skin’s natural microbiome.",
+        "type": "offers"
+      },
+      {
+        "id": 6,
+        "img": "/imags/offer_6_1.jpg",
+        "title": "De Fabulous Reviver Hair Repair Shampoo 250ml + Conditioner 250ml",
+        "price": "2,592",
+        "s_img_1":"/imags/offer_6_1.jpg",
+        "s_img_2":"/imags/offer_6_2.jpg",
+        "desc": "Enriched with vitamin E rejuvenating beads, De Fabulous Reviver Hair Repair Shampoo reconstructs & strengthens extremely damaged & fragile hair. Formulated with olive fruit extract, meadowfoam seed extract, sweet almond extract & wheat amino-acid proteins, deep intensive moisture is restored without weighing down hair. A specially formulated protein complex works with the hair to restore natural health & strength. De Fabulous Reviver Hair Repair Conditioner rescues & revitalizes chemically enhanced, porous hair. Detangles & leaves hair manageable. Reviving protein complex brings weak hair back to life.",
+        "type": "offers"
+      }
+    ],
+    "HairCare": [
+      {
+        "id" : 1,
+        "img" :"/imags/Hair_care_1.jpg",
+        "title": "Moroccanoil Moisture Repair Shampoo 250ml",
+        "price": "2,160",
+        "s_img_1":"/imags/Hair_care_1.jpg",
+        "s_img_2":"/imags/Hair_care_1_2.jpg",
+       
+        "desc": "Moroccanoil Moisture Repair Shampoo shock is a hair fall reducing scalp oil made with powerful peptides and clinically proven plant actives.",
+         "type": "HairCare"
+
+      },
+      {
+        "id" : 2,
+        "img" :"/imags/Hair_care_2.jpg",
+        "title": "Moroccanoil Light Treatment Oil 100ml",
+        "price": "3,870",
+        "s_img_1":"/imags/Hair_care_2.jpg",
+        "s_img_2":"/imags/Hair_care_2_2.jpg",
+        "s_img_3":"/imags/Hair_care_2_3.jpg",
+       
+        "desc": "Moroccanoil Treatment's versatile, nourishing & residue-free formula can be used as a conditioning, styling & finishing tool. It blends perfectly with other products & even speeds up drying time. This treatment for hair completely transforms & repairs as its formula transports lost proteins for strength fatty acids, omega-3 oils, vitamins for shine & antioxidants for protection. It absorbs instantly to fill gaps in hair created by heat, styling & environmental damage.",
+         "type": "HairCare"
+
+      },
+      {
+        "id" : 3,
+        "img" :"/imags/Hair_care_3.jpg",
+        "title": "Moroccanoil Hydrating Conditioner 250ml",
+        "price": "1,100",
+        "s_img_1":"/imags/Hair_care_3.jpg",
+        "s_img_2":"/imags/Hair_care_3_1.jpg",
+       
+        "desc": "Condition and detangle dehydrated hair with moroccanoil® hydrating conditioner. This gentle, daily-use formula leaves hair smoother, more manageable and easier to style. Infused with antioxidant-rich argan oil, vitamins a, vitamin e and moisture-attracting red algae for optimal hydration for all hair ",
+         "type": "HairCare"
+
+      },
+      {
+        "id" : 4,
+        "img" :"/imags/Hair_care_4.jpg",
+        "title": "Schwarzkopf Professional BC Bonacure Colour 4.5 Masque 200ml",
+        "price": "1,150",
+        "s_img_1":"/imags/Hair_care_4_2.jpg",
+        "s_img_2":"/imags/Hair_care_4_3.jpg",
+  
+        "desc": "Schwarzkopf Professional BC Bonacure Color Freeze Treatment is an intensely restoring, creamy treatment for color-treated hair. The rich and highly nourishing emulsion contains hydrolysed keratins to fill structural gaps in the hair, from the outer layer to the cortex. Its pH 4.5 Balancer Technology tightens the hair structure and locks colour pigments into the deepest layers of the hair, while improving the strength and elasticity of coloured hair. Hair is brought to optimal pH 4.5 colour, appearing as vibrant as on day one, until the next salon visit.",
+         "type": "HairCare"
+
+      },
+      {
+        "id" : 5,
+        "img" :"/imags/Hair_care_5.jpg",
+        "title": "Schwarzkopf Professional Repair Rescue Conditioner 200ml",
+        "price": "1,100",
+        "s_img_1":"/imags/Hair_care_5_1.jpg",
+        "s_img_2":"/imags/Hair_care_5_2.jpg",
+       
+        "desc": "conditioner for damaged hair. This highly effective formula that cocoons each strand to immediately improve elasticity. This product is most suitable for hair that is damaged, dull, porous and prone to breakage from chemical treatments or distressed from mechanical processes.",
+         "type": "HairCare"
+
+      },
+      {
+        "id" : 6,
+        "img" :"/imags/Hair_care_6.jpg",
+        "title": "Schwarzkopf Professional Repair Rescue Conditioner 200ml",
+        "price": "1,100",
+        "s_img_1":"/imags/Hair_care_6_1.jpg",
+        "s_img_2":"/imags/Hair_care_6_2.jpg",
+       
+        "desc": "conditioner for damaged hair. This highly effective formula that cocoons each strand to immediately improve elasticity. This product is most suitable for hair that is damaged, dull, porous and prone to breakage from chemical treatments or distressed from mechanical processes.",
+         "type": "HairCare"
+
+      }
+    ],
+    "SkinCare":[
+      {
+        "id":1,
+        "img":"/imags/Skin_care_1.jpg",
+        "title":"Christine Valmy Cracked Heel Repair Cream",
+        "price":"347",
+        "s_img_1":"/imags/Hair_care_6_1.jpg",
+        "type":"SkinCare"
+      },
+      {
+        "id":2,
+        "img":"/imags/Skin_care_2.jpg",
+        "title":"Dermalogica Intensive Moisture Balance Moisturizer 50ml",
+        "price":"3,600",
+        "s_img_1":"/imags/Skin_care_2.jpg",
+        "s_img_2":"/imags/Skin_care_2_2.jpg",
+        "s_img_3":"/imags/Hair_care_2_3.jpg",
+        "desc":"using hyaluronic acid, echinacea, aloe vera, and a prebiotic chlorella algae complex. This formula locks in hydration, enhances moisture content, improves firmness, and reduces the appearance of fine lines. This moisturizer restores balance to dry skin to give a clean, healthy appearance.",
+        "type":"SkinCare"
+      },
+      {
+        "id":3,
+        "img":"/imags/Skin_care_3.jpg",
+        "title":"Dermalogica Biolumin-C Vitamin C Serum",
+        "price":"8,000",
+        "s_img_1":"/imags/Skin_care_3.jpg",
+        "s_img_2":"/imags/Skin_care_3_1.jpg",
+        "s_img_3":"/imags/Hair_care_3_2.jpg",
+        "s_img_4":"/imags/Hair_care_3_4.jpg",
+        "desc":"Advanced bio-technology fuses ultra-stable vitamin c & palmitoyl tripeptide-5, helping to dramatically reduce the appearance of fine lines & wrinkles. This superior formula outperforms other vitamin c products. Other key ingredients include vitamin c complex for brighter, firmer, more radiant skin.",
+        "type":"SkinCare"
+      },
+      {
+        "id":4,
+        "img":"/imags/Skin_care_4.jpg",
+        "title":"Dermalogica  Precleanse  30ml (30ml + extra)",
+        "price":"900",
+        "s_img_1":"/imags/Skin_care_4.jpg",
+        "s_img_2":"/imags/Skin_care_4_2.jpg",
+        "s_img_3":"/imags/Hair_care_3_2.jpg",
+        "desc":"Advanced bio-technology fuses ultra-stable vitamin c & palmitoyl tripeptide-5, helping to dramatically reduce the appearance of fine lines & wrinkles. This superior formula outperforms other vitamin c products. Other key ingredients include vitamin c complex for brighter, firmer, more radiant skin.",
+        "type":"SkinCare"
+      },
+      {
+        "id":5,
+        "img":"/imags/Skin_care_5.jpg",
+        "title":"Multivitamin Thermofoliant Face Scrub",
+        "price":"4,300",
+        "s_img_1":"/imags/Skin_care_5.jpg",
+        "s_img_2":"/imags/Skin_care_5_2.jpg",
+        "type":"SkinCare"
+      }
+
+    ],
+    "Makeup" : [
+      {
+        "id" : 1,
+        "img":"/imags/Makeup_1.jpg",
+        "title" : "Lakme Forever Matte Liquid Lip Colour",
+        "color":"", 
+        "price": "235",
+        "s_img_1":"/imags/Makeup_1.jpg",
+        "s_img_2":"/imags/Makeup_1_1.jpg",
+        "s_img_3":"/imags/Makeup_1_2.jpg",
+        "s_img_4":"/imags/Makeup_1_3.jpg",
+         "type": "Makeup"
+      },
+      {
+        "id" : 2,
+        "img":"/imags/Makeup_2.jpg",
+        "title" : "Lakme Absolute Luminous Skin Tint Foundation - 23ml",
+        "color":"", 
+        "price": "700",
+        "s_img_1":"/imags/Makeup_2.jpg",
+        "s_img_2":"/imags/Makeup_2_2.jpg",
+        "s_img_3":"/imags/Makeup_2_3.jpg",
+        "s_img_4":"/imags/Makeup_2_4.jpg",
+        "desc" : "Let your glam light up the world brighter than ever before, while your luminous skin steals the show. The new Lakmé Absolute Luminous Skin Tint, is a sheer, light-reflecting skin tint and your secret to a flawless complexion. Indulge in the weightless, ultra-blendable formula that effortlessly melts into your skin, leaving you lit-from-within that's nothing less than showstopping.",
+         "type": "Makeup"
+      },
+      {
+        "id" : 3,
+        "img":"/imags/Makeup_3.jpg",
+        "title" : "Lakme Absolute Luminous Skin Tint Foundation - 23ml",
+        "color":"", 
+        "price": "700",
+        "s_img_1":"/imags/Makeup_3.jpg",
+        "s_img_2":"/imags/Makeup_3_2.jpg",
+        "s_img_3":"/imags/Makeup_3_3.jpg",
+        "s_img_4":"/imags/Makeup_2_4.jpg",
+        "desc" : "Let your glam light up the world brighter than ever before, while your luminous skin steals the show. The new Lakmé Absolute Luminous Skin Tint, is a sheer, light-reflecting skin tint and your secret to a flawless complexion. Indulge in the weightless, ultra-blendable formula that effortlessly melts into your skin, leaving you lit-from-within that's nothing less than showstopping.",
+         "type": "Makeup"
+      },
+      {
+        "id" : 4,
+        "img":"/imags/Makeup_4.jpg",
+        "title" : "Lakme Absolute 3D Lash Volumizer 15ml",
+        "color":"", 
+        "price": "670",
+        "s_img_1":"/imags/Makeup_4.jpg",
+        "s_img_2":"/imags/Makeup_4_2.jpg",
+        "desc" : "Give Your Lashes The Gift Of A Stunning 3D Effect With The All New Lakme Absolute 3D Lash Definer. A Mascara That Gives You 3D Lashes To Fall In Love With! It Has An Intense Black Formula That Naturally Gives Your Lashes A Bold And Fuller Look. Say Goodbye To The Problem Of Flaky Mascaras As Lakme Absolute 3D Lash Definer Has Been Specially Made With A Thin Film That Curbs Flakiness.",
+         "type": "Makeup"
+      },
+      {
+        "id" : 5,
+        "img":"/imags/Makeup_5.jpg",
+        "title" : "Lakme Absolute Matte Revolution Lip Color, 3.5g",
+        "color":"", 
+        "price": "900",
+        "s_img_1":"/imags/Makeup_5.jpg",
+        "s_img_2":"/imags/Makeup_5_2.jpg",
+        "s_img_3":"/imags/Makeup_5_3.jpg",
+        "desc" : "Give Your Lashes The Gift Of A Stunning 3D Effect With The All New Lakme Absolute 3D Lash Definer. A Mascara That Gives You 3D Lashes To Fall In Love With! It Has An Intense Black Formula That Naturally Gives Your Lashes A Bold And Fuller Look. Say Goodbye To The Problem Of Flaky Mascaras As Lakme Absolute 3D Lash Definer Has Been Specially Made With A Thin Film That Curbs Flakiness.",
+         "type": "Makeup"
+      },
+      {
+        "id" : 6,
+        "img":"/imags/Makeup_6.jpg",
+        "title" : "Lakme Color Crush Nail Art, 6ml (new)",
+        "color":"", 
+        "price": "200",
+        "s_img_1":"/imags/Makeup_6.jpg",
+        "s_img_2":"/imags/Makeup_6_2.jpg",
+        "s_img_3":"/imags/Makeup_6_3.jpg",
+        "desc" : "Lakmé color crush nail art -show-stopping nail art 4 different families - unicorn, chrome, circus, glitterati unicorn- dive into the gleaming watery world and get close to precious shimmering sea shells chrome- get chrome finish with bright colors mirror like chrome finish to get the bright metal look circus- spectacular color, iridescent glitter nail effect.",
+         "type": "Makeup"
+      }
+    ],
+    "Kits":[
+      {
+        "id": 1,
+        "img": "/imags/offers_1_1.jpg",
+        "title": "De Fabulous Reviver Hair Repair Shampoo 250ml + Conditioner 250ml",
+        "price": "2,592",
+        "s_img_1":"/imags/offers_1_1.jpg",
+        "s_img_2":"/imags/offers_1_2.jpg",
+        "s_img_3":"/imags/offers_1_3.jpg",
+        "s_img_4":"/imags/offers_1_4.jpg",
+        "desc": "Enriched with vitamin E rejuvenating beads, De Fabulous Reviver Hair Repair Shampoo reconstructs & strengthens extremely damaged & fragile hair. Formulated with olive fruit extract, meadowfoam seed extract, sweet almond extract & wheat amino-acid proteins, deep intensive moisture is restored without weighing down hair. A specially formulated protein complex works with the hair to restore natural health & strength. De Fabulous Reviver Hair Repair Conditioner rescues & revitalizes chemically enhanced, porous hair. Detangles & leaves hair manageable. Reviving protein complex brings weak hair back to life.",
+        "type": "Kits"
+      },
+      {
+        "id": 2,
+        "img": "/imags/kits_2.jpg",
+        "title": "Beauty Garage Shea Gift set Shampoo & Oil 400ml",
+        "price": "3,592",
+        "s_img_1":"/imags/offers_2.jpg",
+        "s_img_2":"/imags/offers_2_2.jpg",
+        "s_img_3":"/imags/offers_2_3.jpg",
+        "desc": "Shampoo : Shea Shampoo Shampoo With Shea Oil Complex Softens your Hair with Naturally Rich Keratin. The Amino Acid-Infused Formula Enhances Hair Texture, Adds Extra Strength, and Leaves Your Hair Silky Soft, It is Color-Safe.",
+        "type": "Kits"
+      },
+      {
+        "id": 3,
+        "img": "/imags/kits_3.jpg",
+        "title": "Schwarzkopf Professional BC Bonacure PH 4.5 Color Masque + Shampoo + Conditioner",
+        "price": "3,159",
+        "type": "Kits"
+      },
+      {
+        "id" : 4,
+        "img" :"/imags/Hair_care_5.jpg",
+        "title": "Schwarzkopf Professional Repair Rescue Conditioner 200ml",
+        "price": "4,300",
+        "s_img_1":"/imags/Hair_care_5_1.jpg",
+        "s_img_2":"/imags/Hair_care_5_2.jpg",
+        "desc": "conditioner for damaged hair. This highly effective formula that cocoons each strand to immediately improve elasticity. This product is most suitable for hair that is damaged, dull, porous and prone to breakage from chemical treatments or distressed from mechanical processes.",
+         "type": "Kits"
+
+      },
+      {
+        "id" : 5,
+        "img" :"/imags/kits_5.jpg",
+        "title": "Moroccanoil Moisture Repair Shampoo + Conditioner Regular priceSale price",
+        "price": "4,320",
+        "desc": "Moroccanoil® moisture repair shampoo gently and effectively cleanses and revives hair to leave it nourished, manageable and strong. Repairs hair damage caused by colour, chemical processing or heat styling. This moisturizing shampoo mends broken strands and dead ends to restore elasticity, moisture and shine.",
+         "type": "Kits"
+
+      }
+    ]
+   
+  }
+
